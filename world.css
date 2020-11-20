@@ -1,1 +1,16 @@
 /* Add your own styles */
+
+body{
+    width: 900px;
+    height: 900px;
+
+
+}
+
+header{
+    color: white;
+    background-color: gray;
+    padding: 10px;
+    margin: 2px 5px;
+    text-align: center;
+}

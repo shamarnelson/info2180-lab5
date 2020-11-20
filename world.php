@@ -3,6 +3,8 @@ $host = 'localhost';
 $username = 'lab5_user';
 $password = '';
 $dbname = 'world';
+$country = $_GET['country'];
+$all = $_GET['all'];
 
 $conn = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8mb4", $username, $password);
 $stmt = $conn->query("SELECT * FROM countries");
